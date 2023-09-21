@@ -1,0 +1,5 @@
+-- Criando um índice na coluna "Nome" da tabela "Clientes"
+CREATE INDEX idx_nome ON Clientes(Nome);
+
+-- Otimizando a consulta usando índice
+SELECT * FROM Clientes WHERE Nome = 'Maria';
