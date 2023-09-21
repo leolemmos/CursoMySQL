@@ -1,0 +1,6 @@
+-- Criando uma tabela simples chamada "Clientes"
+CREATE TABLE Clientes (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(50),
+    Email VARCHAR(100)
+);
