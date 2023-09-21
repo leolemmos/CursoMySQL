@@ -1,0 +1,4 @@
+-- Usando uma subconsulta para encontrar clientes que fizeram pedidos recentes
+SELECT Nome
+FROM Clientes
+WHERE ID IN (SELECT ClienteID FROM Pedidos WHERE Data > '2023-01-01');
