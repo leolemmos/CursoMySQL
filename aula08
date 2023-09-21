@@ -1,0 +1,5 @@
+-- Calculando a média de preços dos produtos
+SELECT AVG(Preco) FROM Produtos;
+
+-- Contando o número de clientes
+SELECT COUNT(*) FROM Clientes;
