@@ -1,0 +1,5 @@
+-- Atualizando o email do cliente com ID 1
+UPDATE Clientes SET Email = 'novoemail@email.com' WHERE ID = 1;
+
+-- Deletando um cliente com ID 2
+DELETE FROM Clientes WHERE ID = 2;
