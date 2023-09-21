@@ -1,0 +1,4 @@
+-- Realizando um INNER JOIN entre as tabelas "Pedidos" e "Clientes"
+SELECT Pedidos.ID, Clientes.Nome
+FROM Pedidos
+INNER JOIN Clientes ON Pedidos.ClienteID = Clientes.ID;
