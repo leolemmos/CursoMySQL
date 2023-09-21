@@ -1,0 +1,2 @@
+-- Recuperando produtos com preço acima de 50 e ordenando por preço
+SELECT * FROM Produtos WHERE Preco > 50 ORDER BY Preco;
