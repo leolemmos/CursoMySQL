@@ -1,0 +1,2 @@
+-- Recuperando todos os clientes da tabela "Clientes"
+SELECT * FROM Clientes;
