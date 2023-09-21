@@ -1,0 +1,11 @@
+-- Exportando dados de uma tabela para um arquivo CSV
+SELECT * INTO OUTFILE '/caminho/para/arquivo.csv'
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM Tabela;
+
+-- Importando dados de um arquivo CSV para uma tabela
+LOAD DATA INFILE '/caminho/para/arquivo.csv'
+INTO TABLE Tabela
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
