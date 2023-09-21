@@ -1,0 +1,5 @@
+-- Criando um novo usuário
+CREATE USER 'novousuario'@'localhost' IDENTIFIED BY 'senha';
+
+-- Concedendo privilégios ao usuário em um banco de dados
+GRANT SELECT, INSERT ON MinhaEmpresa.* TO 'novousuario'@'localhost';
