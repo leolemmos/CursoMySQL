@@ -1,0 +1,7 @@
+-- Criando um trigger que insere um registro de histórico sempre que um pedido é atualizado
+CREATE TRIGGER PedidoAtualizado
+AFTER UPDATE ON Pedidos
+FOR EACH ROW
+BEGIN
+    INSERT INTO HistoricoPedidos (PedidoID, Data) VALUES (NEW.ID, NOW());
+END;
