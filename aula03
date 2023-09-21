@@ -1,0 +1,7 @@
+-- Criando uma tabela chamada "Produtos"
+CREATE TABLE Produtos (
+    ID INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Preco DECIMAL(10, 2),
+    Categoria VARCHAR(50)
+);
