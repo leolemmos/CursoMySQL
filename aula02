@@ -1,0 +1,8 @@
+-- Criando um novo banco de dados chamado "MinhaEmpresa"
+CREATE DATABASE MinhaEmpresa;
+
+-- Listando todos os bancos de dados
+SHOW DATABASES;
+
+-- Excluindo um banco de dados chamado "BancoAntigo"
+DROP DATABASE BancoAntigo;
