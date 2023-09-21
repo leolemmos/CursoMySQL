@@ -1,0 +1,2 @@
+-- Inserindo um novo cliente na tabela "Clientes"
+INSERT INTO Clientes (Nome, Email) VALUES ('João', 'joao@email.com');
