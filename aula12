@@ -1,0 +1,10 @@
+-- Iniciando uma transação
+START TRANSACTION;
+
+-- Realizando operações dentro da transação
+
+-- Commit da transação
+COMMIT;
+
+-- Rollback da transação em caso de erro
+ROLLBACK;
