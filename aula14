@@ -1,0 +1,5 @@
+-- Realizando backup de um banco de dados
+mysqldump -u usuario -p MinhaEmpresa > backup.sql
+
+-- Restaurando um banco de dados a partir de um backup
+mysql -u usuario -p MinhaEmpresa < backup.sql
